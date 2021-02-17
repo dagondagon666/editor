@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+#content {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.editor {
+  border: 1px solid grey;
+  padding: 6px;
+}
+
+.article-title {
+  width: 100%;
+  margin-bottom: 18px;
+  border: none;
+  padding: 0;
+  display: block;
+}
+
+.ui-input-textarea {
+  position: relative;
+  display: inline-block;
+  transition: color .2s ease,background-color .2s ease,border-color .2s ease;
+  border: 1px solid #ccd0d7;
+  outline: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 7px 12px 35px;
+  cursor: text;
+}
