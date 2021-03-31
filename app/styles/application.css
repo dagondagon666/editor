@@ -31,3 +31,51 @@
   padding: 7px 12px 35px;
   cursor: text;
 }
+
+.VPEditor-root {
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.VPEditor-editor {
+  border-top: 1px solid #ddd;
+  cursor: text;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.VPEditor-editor .public-DraftEditorPlaceholder-root,
+.VPEditor-editor .public-DraftEditor-content {
+  margin: 0 -15px -15px;
+  padding: 15px;
+}
+
+.VPEditor-editor .public-DraftEditor-content {
+  min-height: 100px;
+}
+
+.VPEditor-editor .public-DraftStyleDefault-pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.public-DraftStyleDefault-block {
+  min-height: 100px;
+}
+
+.VPEditor-styleButton {
+  color: #999;
+  cursor: pointer;
+  margin-right: 16px;
+  padding: 2px 0;
+  display: inline-block;
+}
+
+.VPEditor-activeButton {
+  color: #5890ff;
+}
